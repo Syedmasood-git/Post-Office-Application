@@ -57,6 +57,7 @@
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
+  text-align: center;
 }
 #ipAddress {
   color: #fff;
@@ -72,7 +73,7 @@
 }
 #btn {
   width: 50%;
-  height: 50px;
+  min-height:50px ;
   font-size: 26px;
   border-radius: 10px;
   border: 2px solid #b8bccc;
@@ -193,6 +194,9 @@ iframe {
   .card > h2 {
     font-size: 24px;
   }
+  .ip-text>h2{
+    text-align: center;
+  }
 }
 @media only screen and (max-width:600px){
     #search{
@@ -219,5 +223,14 @@ iframe {
     }
     .map-container{
         margin-inline:20px ;
+    }
+    .ip-text>h2{
+        font-size: 24px;
+    }
+    #ipAddress{
+        font-size: 20px;
+    }
+    .text>p{
+        font-size: 22px;
     }
 }
